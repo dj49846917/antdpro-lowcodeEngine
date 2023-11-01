@@ -1,0 +1,18 @@
+export default {
+  'pages.app.api.title': 'API Management',
+  'pages.app.api.modal.title': 'API',
+  'pages.app.api.name': 'API Name',
+  'pages.app.api.uri': 'Request Uri',
+  'pages.app.api.params': 'Request Params',
+  'pages.app.api.method': 'Request Method',
+  'pages.app.api.timeout': 'Timeout(ms)',
+  'pages.app.api.is-cors': 'Is Support CORS',
+  'pages.app.api.yes': 'Yes',
+  'pages.app.api.no': 'No',
+  'pages.app.api.headers': 'Request Headers',
+  'pages.app.api.lifecycles': 'Data Handler Functions',
+  'pages.app.api.should-request': 'Should Request',
+  'pages.app.api.before-request': 'Before Request',
+  'pages.app.api.on-success': 'Success Handler',
+  'pages.app.api.on-error': 'Error Handler',
+}

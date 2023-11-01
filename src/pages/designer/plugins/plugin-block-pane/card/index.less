@@ -1,0 +1,52 @@
+.block-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  align-items: center;
+  justify-content: space-between;
+  width: 33.3333333%;
+  height: 114px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 15%);
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+
+  .anticon {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+  }
+
+  &:hover {
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.15);
+    border-color: transparent;
+
+    .anticon {
+      color: red;
+    }
+  }
+
+  .next-divider-hoz {
+    margin-bottom: 0 !important;
+  }
+
+  .block-card-screenshot {
+    display: flex;
+    border: 1px solid #f3f3f3;
+    border-radius: 6px;
+
+    img {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+    }
+  }
+
+}

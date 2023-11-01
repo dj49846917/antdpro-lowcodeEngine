@@ -1,0 +1,16 @@
+export default {
+  "pages.app.org.table.organizationCode": "机构编码",
+  "pages.app.org.table.organizationCode.placeholder": "请输入机构编码",
+  "pages.app.org.table.name": "组织名称",
+  "pages.app.org.table.name.placeholder": "请输入组织名称",
+  "pages.app.org.table.organizationTypeEnumVal": "组织类型",
+  "pages.app.org.table.organizationTypeEnumVal.placeholder": "请选择组织类型",
+  "pages.app.org.table.leaderName": "组织领导人",
+  "pages.app.org.table.leaderName.placeholder": "请选择组织领导人",
+  "pages.app.org.table.parentOrganizationName": "上级组织",
+  "pages.app.org.table.parentOrganizationName.placeholder": "请选择上级组织",
+  "pages.app.org.table.tenantName": "所属租户",
+  "pages.app.org.table.tenantName.placeholder": "请选择所属租户",
+  "pages.app.org.table.description": "组织描述",
+  "pages.app.org.table.description.placeholder": "请输入组织描述",
+}

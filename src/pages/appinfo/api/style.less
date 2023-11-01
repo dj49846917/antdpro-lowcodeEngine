@@ -1,0 +1,33 @@
+@import "../../../styles/table.less";
+
+@lc-prefix: ~'lc';
+
+.@{lc-prefix}-api-management {
+  background: #ffffff;
+  padding: 20px;
+
+  .ant-table-cell {
+    a {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.api-tip {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+.search_box {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

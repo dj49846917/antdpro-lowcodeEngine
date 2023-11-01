@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="24px" viewBox="0 0 22 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ui icon/arrow/消息@2x</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="top导航/开发平台白" transform="translate(-1791.000000, -22.000000)">
+            <g id="编组-16" transform="translate(1790.000000, 13.000000)">
+                <g id="编组" transform="translate(0.000000, 9.000000)">
+                    <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                    <g id="bell" transform="translate(2.000000, 1.000000)">
+                        <path d="M17,10.0000001 L17,7.0000001 C17,3.13400679 13.8659932,1.04308128e-07 10,1.04308128e-07 C6.13400679,1.04308128e-07 3,3.13400679 3,7.0000001 L3,10.0000001 C3,13.3 -1.77635684e-15,14.1 -1.77635684e-15,16.0000001 C-1.77635684e-15,17.7 3.9,19.0000001 10,19.0000001 C16.1,19.0000001 20,17.7 20,16.0000001 C20,14.1 17,13.3 17,10.0000001 Z" id="Path" stroke="#11142D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M10,21 C8.989,21 8.039,20.966 7.145,20.9 C7.53616569,22.1477858 8.69233797,22.9969922 10,22.9969922 C11.307662,22.9969922 12.4638343,22.1477858 12.855,20.9 C11.961,20.966 11.011,21 10,21 Z" id="Path" fill="#12132D" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

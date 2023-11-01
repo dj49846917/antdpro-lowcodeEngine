@@ -1,0 +1,25 @@
+.lowcode-plugin-logo {
+  a {
+    display: flex;
+  }
+  .logo {
+    width: 139px;
+    height: 26px;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    font-weight: bold;
+    color: #000000;
+    line-height: 26px;
+    border-left: 1px solid #DFE4E7;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+}

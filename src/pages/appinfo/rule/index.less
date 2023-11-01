@@ -1,0 +1,105 @@
+@import '../../../theme.less';
+
+.d-app-rule {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+
+  .menu {
+    width: 18.75vw;
+    background-color: #fff;
+
+    .header {
+      width: 18.75vw;
+      height: 92px;
+      line-height: 92px;
+      font-size: 24px;
+      font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+      font-weight: bold;
+      color: #2F3236;
+      padding-left: 24px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #E4E4E4;
+    }
+
+    .tree {
+      padding-right: 30px;
+      box-sizing: border-box;
+      margin-top: 17px;
+
+      .ant-tree-list {
+        .ant-tree-treenode {
+          height: 48px;
+          box-sizing: border-box;
+          width: 100%;
+
+          .ant-tree-switcher {
+            width: 30px;
+          }
+
+          .ant-tree-node-content-wrapper {
+            height: 48px;
+            line-height: 48px;
+            flex: 1;
+            padding: 0 10px;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+            font-weight: bold;
+          }
+
+          .ant-tree-node-content-wrapper.ant-tree-node-selected {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    flex: 1;
+    background: @main-bgColor;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .d-title {
+      width: 100%;
+      padding: 0 54px;
+      font-size: 20px;
+      font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+      font-weight: bold;
+      color: #131523;
+      background-color: #fff;
+      height: 44px;
+      line-height: 44px;
+      box-sizing: border-box;
+    }
+
+    .tables {
+      width: 100%;
+      height: 100%;
+      padding: 30px 54px;
+      background-color: #fff;
+      margin-top: 20px;
+      box-sizing: border-box;
+
+      .table {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.d-group-modal {
+  width: 60vw !important;
+  min-width: 1000px;
+
+  .ant-advanced-search-form {
+    width: 40vw;
+    margin: 0 auto;
+    min-width: 600px;
+  }
+}

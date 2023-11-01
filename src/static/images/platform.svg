@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="开发/应用管理" transform="translate(-38.000000, -233.000000)" stroke="#808191" stroke-width="1.5">
+            <g id="编组-14" transform="translate(38.000000, 217.000000)">
+                <g id="🍎Icon" transform="translate(0.000000, 16.000000)">
+                    <g id="Chart" transform="translate(2.000000, 2.000000)">
+                        <line x1="5.37142857" y1="6.91912464" x2="5.37142857" y2="11.9191246" id="Line_182"></line>
+                        <line x1="10.0380952" y1="4.91912464" x2="10.0380952" y2="11.9191246" id="Line_183"></line>
+                        <line x1="14.6285714" y1="8.91912464" x2="14.6285714" y2="11.9191246" id="Line_184"></line>
+                        <path d="M14.6857143,0 L5.31428571,0 C2.04761905,0 0,1.84966698 0,4.46812559 L0,11.5318744 C0,14.150333 2.03809524,16 5.31428571,16 L14.6857143,16 C17.9619048,16 20,14.150333 20,11.5318744 L20,4.46812559 C20,1.84966698 17.9619048,0 14.6857143,0 Z" id="Path"></path>
+                    </g>
+                    <line x1="3" y1="22" x2="21" y2="22" id="直线-3"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

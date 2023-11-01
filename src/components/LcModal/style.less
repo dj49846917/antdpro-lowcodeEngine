@@ -1,0 +1,23 @@
+@lc-prefix: ~'lc';
+
+.@{lc-prefix}-modal {
+  height: 100%;
+  max-width: 100%;
+
+  .ant-modal-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
+    .ant-modal-body {
+      flex: 1;
+      overflow: auto;
+    }
+  }
+
+  .@{lc-prefix}-modal-header {
+    label {
+      margin-right: 20px;
+    }
+  }
+}

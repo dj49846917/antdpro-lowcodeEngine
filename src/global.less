@@ -1,0 +1,156 @@
+@import '~antd/es/style/variable.less';
+@import './constant/color.less';
+
+@import '~antd/dist/antd.less';
+
+// 引入 style.less，这个文件同时引入了 thenme/default.less
+@import '~antd/lib/style/index.less';
+@import "styles/sider";
+@import "styles/iconfont.css";
+@import "theme";
+
+// Modeler 左侧浮动工具栏样式
+@import '~bpmn-js/dist/assets/diagram-js.css';
+@import '~bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
+@import '~bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
+@import '~bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
+
+// 右侧属性面板样式库
+@import '~bpmn-js-properties-panel/dist/assets/bpmn-js-properties-panel.css';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.ant-select-dropdown {
+  z-index: 2222222 !important;
+}
+
+.ant-notification {
+  z-index: 2222222 !important;
+}
+
+.ant-popover {
+  z-index: 2222222 !important;
+}
+
+#root {
+  overflow-y: scroll;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+
+.ant-pro-sider-logo {
+  padding: 0 !important;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.ant-pro-basicLayout-content .ant-pro-page-container {
+  margin: 0 !important;
+}
+
+.ant-pro-page-container-children-content {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.ant-pro-page-container {
+  height: 100%;
+}
+
+.lowcode-plugin-sample-preview-content {
+
+}
+
+.mobile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-content {
+  margin-top: 60px;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+
+    &-thead>tr,
+    &-tbody>tr {
+
+      >th,
+      >td {
+        white-space: pre;
+
+        >span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// Compatible with IE11
+@media screen and(-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+  body .ant-design-pro>.ant-layout {
+    min-height: 100vh;
+  }
+}
+
+.bjs-powered-by {
+  display: none !important;
+}
+
+.ant-drawer {
+  left: unset !important;
+}
+
+.lowcode-component-panel {
+  .tabs.tab {
+    .header {
+      >.items {
+        overflow-x: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.lc-setter-mixed {
+  .next-btn.next-small {
+    height: 28px;
+  }
+}

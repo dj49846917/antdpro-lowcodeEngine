@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="11px" viewBox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>箭头@2x</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="开发/工作台" transform="translate(-1835.000000, -478.000000)">
+            <g id="箭头" transform="translate(1826.000000, 472.000000)">
+                <rect id="bound" x="0" y="0" width="24" height="23.1851852"></rect>
+                <g id="small-right" transform="translate(10.000000, 7.728395)" stroke="#808191" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <polyline id="Path" points="0 0 4 3.86419753 0 7.72839506"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

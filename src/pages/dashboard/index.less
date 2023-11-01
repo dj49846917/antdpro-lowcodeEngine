@@ -1,0 +1,168 @@
+@family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+@d-prefix: ~'d';
+
+.alignCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  height: 23px;
+  font-size: 18px;
+  font-family: @family;
+  font-weight: bold;
+  color: #2D3633;
+  line-height: 24px;
+}
+
+.@{d-prefix}-container {
+  padding: 30px 1.5625vw;
+  box-sizing: border-box;
+
+  .@{d-prefix}-dashboard {
+    font-family: @family;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2F3835;
+    line-height: 36px;
+  }
+
+  .@{d-prefix}-user {
+    font-family: @family;
+    font-size: 40px;
+    color: #2D3633;
+    letter-spacing: 0;
+    line-height: 55px;
+    font-weight: 700;
+
+    img {
+      width: 2.395vw;
+      margin-left: 10px;
+    }
+  }
+
+  .@{d-prefix}-action {
+    width: 100%;
+    height: 106px;
+    background-color: #fff;
+    margin-top: 29px;
+    .alignCenter;
+
+    .@{d-prefix}-action-item {
+      flex: 1;
+      height: 106px;
+      .alignCenter;
+      border-right: 1px solid rgba(233, 233, 235, 1);
+      padding: 0 40px 0 29px;
+      box-sizing: border-box;
+      justify-content: space-between;
+
+      .@{d-prefix}-action-item-left {
+        display: flex;
+        flex-direction: column;
+
+        .@{d-prefix}-action-name {
+          font-family: MicrosoftYaHei;
+          font-size: 16px;
+          color: #808191;
+          line-height: 24px;
+          font-weight: 400;
+        }
+
+        .@{d-prefix}-action-num {
+          font-family: @family;
+          font-size: 28px;
+          color: #2D3633;
+          line-height: 36.57px;
+          font-weight: 700;
+        }
+      }
+
+      .@{d-prefix}-action-item-right {
+        width: 4.48vw;
+        height: 4.48vw;
+        background-color: #EBEFF0;
+        border-radius: 44px;
+      }
+    }
+  }
+
+  .@{d-prefix}-main {
+    .alignCenter;
+    justify-content: space-between;
+    margin-top: 28px;
+
+    .@{d-prefix}-app {
+      flex: 1;
+      height: 600px;
+      background: #FFFFFF;
+      border-radius: 24px;
+      padding: 28px 1.4vw;
+      box-sizing: border-box;
+
+      .@{d-prefix}-app-title {
+        .title;
+        margin-bottom: 28px;
+      }
+
+      .@{d-prefix}-app-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 0.67vw;
+      }
+    }
+
+    // .@{d-prefix}-process {
+    //   width: 15.625vw;
+    //   margin-left: 1.5625vw;
+    //   height: 600px;
+    //   background: #FFFFFF;
+    //   border-radius: 24px;
+    //   padding: 30px;
+    //   box-sizing: border-box;
+
+    //   .@{d-prefix}-app-title {
+    //     .title;
+    //     margin-top: 11px;
+    //   }
+
+    //   .@{d-prefix}-process-title {
+    //     height: 30px;
+    //     .alignCenter;
+    //     justify-content: space-between;
+    //     font-size: 12px;
+    //     font-family: MicrosoftYaHei;
+    //     color: #5A607F;
+    //     border-bottom: 1px solid rgba(233, 233, 235, 1);
+    //   }
+
+    //   .@{d-prefix}-process-item {
+    //     height: 52px;
+    //     .alignCenter;
+    //     justify-content: space-between;
+    //     font-size: 14px;
+    //     font-family: MicrosoftYaHei;
+    //     color: #2D3633;
+    //     border-bottom: 1px solid rgba(233, 233, 235, 1);
+
+    //     img {
+    //       padding: 0 10px;
+    //     }
+    //   }
+    // }
+  }
+}
+
+// @media (min-width: 1920px) {
+//   .@{d-prefix}-app-box {
+//     margin-right: 1.5vw;
+//   }
+// }
+
+// @media (max-width: 1540px) {
+//   .@{d-prefix}-app-box {
+//     margin-right: 0.4vw;
+//   }
+// }

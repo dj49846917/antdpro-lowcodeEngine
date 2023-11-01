@@ -1,0 +1,178 @@
+@lc-prefix: ~'lc';
+@marginWidth: 1.5625vw;
+
+.@{lc-prefix}-menus-management {
+  display: flex;
+  height: 100%;
+  column-gap: 20px;
+  overflow: hidden;
+
+  .ant-tree {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .@{lc-prefix}-pages-management {
+    border-radius: 4px;
+    width: 18.75vw;
+    background-color: #fff;
+    // min-width: 200px;
+
+    .@{lc-prefix}-pages-management-plus {
+      // padding: 6px 12px 6px 24px;
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
+      // font-weight: bold;
+      padding: 0 1.5625vw;
+      height: 92px;
+      line-height: 92px;
+      background: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      border-bottom: 1px solid #E4E4E4;
+      margin-bottom: 17px;
+
+      label {
+        font-size: 24px;
+        font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+        color: #2F3236;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .anticon {
+        margin-left: auto;
+        font-size: 18px;
+      }
+    }
+
+    .tree {
+      width: 18.75vw;
+      padding-right: 30px;
+      box-sizing: border-box;
+      margin-top: 17px;
+
+      .ant-tree-list {
+        .ant-tree-treenode {
+          height: 48px;
+          box-sizing: border-box;
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+
+          .ant-tree-switcher {
+            width: 30px;
+            line-height: 44px;
+          }
+
+          .ant-tree-node-content-wrapper {
+            height: 48px;
+            line-height: 48px;
+            flex: 1;
+            padding: 0 10px;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            .@{lc-prefix}-menu-title {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+            }
+          }
+
+          .ant-tree-node-content-wrapper.ant-tree-node-selected {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    // .tree {
+    //   padding-right: 30px;
+
+    //   .ant-tree-treenode {
+    //     // padding-right: @marginWidth;
+
+    //     .ant-tree-switcher {
+    //       width: @marginWidth;
+    //       line-height: 44px;
+    //     }
+
+    //     .ant-tree-node-content-wrapper {
+    //       padding: 0 10px;
+    //       box-sizing: border-box;
+    //       font-size: 14px;
+    //       font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+    //       font-weight: bold;
+
+    //       .@{lc-prefix}-menu-title {
+    //         display: flex;
+    //         align-items: center;
+    //         justify-content: space-between;
+    //         height: 48px;
+    //         line-height: 48px;
+    //         // padding-right: 8px;
+
+    //         label {
+    //           width: 12.5vw;
+    //           overflow: hidden;
+    //           text-overflow: ellipsis;
+    //           white-space: nowrap;
+    //         }
+
+    //         .anticon {
+    //           font-size: 18px;
+    //         }
+    //       }
+    //     }
+
+    //     .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    //       color: #fff;
+    //     }
+    //   }
+    // }
+  }
+
+  .@{lc-prefix}-menus-management-content {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 4px;
+    overflow-x: scroll;
+  }
+}
+
+// .@{lc-prefix}-menu-title {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   min-width: 200px;
+//   padding-right: 8px;
+
+//   label {
+//     width: 100px;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     white-space: nowrap;
+//   }
+
+//   .anticon {
+//     font-size: 18px;
+//   }
+// }
+
+.@{lc-prefix}-menu-actions {
+  .ant-dropdown-menu-item {
+    min-width: 100px;
+  }
+}

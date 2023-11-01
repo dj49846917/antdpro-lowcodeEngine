@@ -1,0 +1,21 @@
+export default {
+  'pages.appInfo.menu.pages.management': 'Pages Management',
+  'pages.appInfo.menu.action.view': 'View',
+  'pages.appInfo.menu.action.edit': 'Edit',
+  'pages.appInfo.menu.action.delete': 'Delete',
+  'pages.appInfo.menu.action.page': 'Page Design',
+  'pages.appInfo.menu.action.create': 'Create',
+  'pages.appInfo.menu.action.createSubmenu': 'Create Submenu',
+  'pages.appInfo.menu.form.menu.name': 'Menu Name',
+  'pages.appInfo.menu.form.menu.name.placeholder': 'please input Menu Name',
+  'pages.appInfo.menu.form.menu.icon': 'Icon',
+  'pages.appInfo.menu.form.menu.page': 'Page Binding',
+  'pages.appInfo.menu.form.menu.path': 'Path',
+  'pages.appInfo.menu.form.menu.path.placeholder': "Path must be accompanied by '/'",
+  'pages.appInfo.menu.form.menu.visible': 'Visible',
+  'pages.appInfo.menu.form.menu.order': 'Order',
+  'pages.appInfo.menu.form.menu.submit': 'Submit',
+  'pages.appInfo.menu.form.menu.creator': 'Creator',
+  'pages.appInfo.menu.form.menu.date': 'Create Date',
+  'pages.appInfo.menu.form.modal.confirm.title': 'Delete Confirm'
+}

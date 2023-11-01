@@ -1,0 +1,135 @@
+@import (reference) '~antd/es/style/themes/index';
+
+@pro-header-hover-bg: rgba(0, 0, 0, 0.025);
+
+.menu {
+  .anticon {
+    margin-right: 8px;
+  }
+  .ant-dropdown-menu-item {
+    min-width: 160px;
+  }
+}
+
+.right {
+  display: flex;
+  float: right;
+  height: 48px;
+  margin-left: auto;
+  overflow: hidden;
+  .action {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 0 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #808191 !important;
+    > span {
+      vertical-align: middle;
+    }
+    &:hover {
+      background: @pro-header-hover-bg !important;
+    }
+    .opened {
+      background: @pro-header-hover-bg;
+    }
+    .icons {
+      font-size: 12px !important;
+      margin-left: 10px;
+      margin-top: 2px;
+      
+    }
+  }
+  .search {
+    padding: 0 12px;
+    &:hover {
+      background: transparent;
+    }
+  }
+  .account {
+    .avatar {
+      width: 35.5px;
+      height: 35.5px;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.d-menu {
+  padding: 32px 16px 20px 16px !important;
+  box-sizing: border-box;
+  .d-line {
+    margin: 20px 0;
+  }
+  .ant-dropdown-menu-item {
+    padding: 0;
+    .d-menu-item-val {
+      height: 44px;
+      line-height: 44px;
+      padding: 0 16px;
+      box-sizing: border-box;
+    }
+  }
+  .d-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .avatar {
+      width: 44px;
+      height: 44px;
+    }
+    .d-menu-item {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      .d-menu-item-name {
+        font-size: 16px;
+        font-family: MicrosoftYaHei;
+        color: #2D3633;
+        margin-bottom: 8px;
+      }
+      .d-menu-item-role {
+        font-size: 14px;
+        font-family: MicrosoftYaHei;
+        color: #808191;
+      }
+    }
+  }
+}
+
+
+
+.ant-pro-global-header-layout-mix .anticon {
+  color: #000;
+}
+
+.dark {
+  .action {
+    color: #808191 !important;
+  }
+}
+
+
+@media only screen and (max-width: @screen-md) {
+  :global(.ant-divider-vertical) {
+    vertical-align: unset;
+  }
+  .name {
+    display: none;
+  }
+  .right {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    .account {
+      .avatar {
+        margin-right: 0;
+      }
+    }
+    .search {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import '../../../theme.less';
+
+.process {
+  position: absolute;
+  top: -26px;
+  width: 100%;
+
+  .btnGroup {
+    text-align: right;
+    height: 21px;
+
+    :global(.btn) {
+      border: 1px solid #d9d9d9;
+    }
+  }
+
+  ul.processList {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    li {
+      padding-left: 10px;
+      box-sizing: border-box;
+      cursor: pointer;
+
+      &.active {
+        color: @primary-color;
+        background-color: @bgColor;
+      }
+
+      &:hover {
+        color: @primary-color;
+        background-color: @bgColor;
+      }
+    }
+  }
+}

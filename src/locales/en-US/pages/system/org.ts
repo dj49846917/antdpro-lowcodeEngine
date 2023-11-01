@@ -1,0 +1,16 @@
+export default {
+  "pages.app.org.table.organizationCode": "organizationCode",
+  "pages.app.org.table.organizationCode.placeholder": "please input organizationCode",
+  "pages.app.org.table.name": "orgName",
+  "pages.app.org.table.name.placeholder": "please input orgName",
+  "pages.app.org.table.organizationTypeEnumVal": "organizationTypeEnumVal",
+  "pages.app.org.table.organizationTypeEnumVal.placeholder": "please select organizationTypeEnumVal",
+  "pages.app.org.table.leaderName": "leaderName",
+  "pages.app.org.table.leaderName.placeholder": "please select leaderName",
+  "pages.app.org.table.parentOrganizationName": "parentOrganizationName",
+  "pages.app.org.table.parentOrganizationName.placeholder": "please select parentOrganizationName",
+  "pages.app.org.table.tenantName": "tenantName",
+  "pages.app.org.table.tenantName.placeholder": "please select tenantName",
+  "pages.app.org.table.description": "description",
+  "pages.app.org.table.description.placeholder": "please input description",
+}

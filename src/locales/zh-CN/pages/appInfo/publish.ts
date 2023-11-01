@@ -1,0 +1,16 @@
+export default {
+  'pages.app.publish.title': '应用发布',
+  'pages.app.publish.success': '发布成功',
+  'pages.app.publish.top.bar.publish': '发布应用',
+  'pages.app.publish.top.bar.env': '环境同步',
+  'pages.app.publish.table.column.name': '版本名称',
+  'pages.app.publish.table.column.env': '版本名称',
+  'pages.app.publish.table.column.version': '版本号',
+  'pages.app.publish.table.column.path': '发布路径',
+  'pages.app.publish.table.column.createUser': '发布人',
+  'pages.app.publish.table.column.createDate': '发布时间',
+  'pages.app.publish.table.column.active': '是否当前版本',
+  'pages.app.publish.table.column.active.yes': '是',
+  'pages.app.publish.table.column.active.no': '否',
+  'pages.app.publish.table.column.actions': '操作',
+}

@@ -1,0 +1,216 @@
+@import url('../../../theme.less');
+@d-prefix: ~'d';
+
+.@{d-prefix}-main {
+  width: 100%;
+  height: 100vh;
+
+  .@{d-prefix}-container {
+    height: calc(100% - 40px);
+    display: flex;
+
+    >img {
+      width: 58.33vw;
+    }
+
+    .@{d-prefix}-box {
+      width: 41.67vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      .@{d-prefix}-login {
+        width: 22vw;
+
+        .@{d-prefix}-login-box {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 10px;
+
+          >img {
+            width: 3vw;
+          }
+
+          .@{d-prefix}-login-title {
+            font-size: 24px;
+            font-family: MicrosoftYaHei;
+            color: #1F1F1F;
+            letter-spacing: 2px;
+            margin-left: 10px;
+          }
+
+        }
+
+        .@{d-prefix}-form {
+          .ant-tabs-nav {
+            margin: 0;
+          }
+
+          .@{d-prefix}-form-item {
+            margin-bottom: 0;
+            margin-top: 10px;
+
+            .ant-form-item-label {
+              padding: 0 0 10px;
+
+              .ant-form-item-required {
+                font-size: 12px;
+                font-family: MicrosoftYaHeiLight;
+                color: #1F1F1F;
+                letter-spacing: 2px;
+              }
+            }
+
+            .@{d-prefix}-login-item {
+              height: 46px;
+
+              .ant-input {
+                height: auto;
+              }
+            }
+          }
+
+          .@{d-prefix}-login-box {
+            .@{d-prefix}-phone-label {
+              margin-top: 10px;
+              padding-bottom: 10px;
+              font-size: 12px;
+              font-family: MicrosoftYaHeiLight;
+              color: #1F1F1F;
+              letter-spacing: 2px;
+            }
+
+            .ant-row {
+              margin-bottom: 0;
+            }
+          }
+
+          .@{d-prefix}-form-check-form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .@{d-prefix}-form-check-box {
+              .ant-checkbox-inner {
+                color: @primary-color;
+              }
+
+              .@{d-prefix}-form-check {
+                font-size: 14px;
+                font-family: MicrosoftYaHei;
+                color: #262626;
+              }
+
+              .@{d-prefix}-link {
+                color: @primary-color;
+                font-size: 14px;
+                cursor: pointer;
+              }
+            }
+
+            .d-form-forget {
+              font-size: 14px;
+              font-family: MicrosoftYaHei;
+              color: @primary-color;
+              margin-top: -24px;
+              cursor: pointer;
+            }
+          }
+
+          .ant-input {
+            height: 46px;
+            box-sizing: border-box;
+          }
+
+          .ant-btn-default {
+            height: 46px;
+          }
+
+          .ant-input::-webkit-input-placeholder {
+            color: #808191;
+          }
+
+          .@{d-prefix}-login-btn {
+            width: 22vw;
+            height: 46px;
+            border-radius: 8px;
+          }
+        }
+      }
+
+      .@{d-prefix}-more {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 40px;
+
+        div {
+          flex: 1;
+          height: 1px;
+          opacity: 0.3;
+          border: 1px solid #979797;
+        }
+
+        span {
+          width: 92px;
+          height: 14px;
+          font-size: 14px;
+          font-family: MicrosoftYaHei;
+          color: #262626;
+          line-height: 14px;
+          letter-spacing: 1px;
+          margin: 0 19px;
+        }
+      }
+
+      .@{d-prefix}-more-btn {
+        margin-top: 23px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .@{d-prefix}-more-btn-item {
+          width: 114px;
+          height: 36px;
+          border-radius: 17px;
+          opacity: 0.4;
+          border: 1px solid #979797;
+          font-size: 14px;
+          font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+          font-weight: bold;
+          color: #262626;
+          letter-spacing: 1px;
+          text-align: center;
+          line-height: 36px;
+          cursor: pointer;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .@{d-prefix}-footer {
+    width: 100%;
+    height: 40px;
+    background: #F0F4F5;
+    box-shadow: 0px -1px 0px 0px #E9E9EB;
+    display: flex;
+    align-items: center;
+    background: #f0f4f5;
+    justify-content: center;
+    grid-column-gap: 31px;
+    -webkit-column-gap: 31px;
+    column-gap: 31px;
+
+    div {
+      font-size: 12px;
+      font-family: MicrosoftYaHei;
+      color: #959ba1;
+      line-height: 16px;
+    }
+  }
+}

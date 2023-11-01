@@ -1,0 +1,83 @@
+@lc-prefix: ~'lc';
+
+@marginWidth: 1.5625vw;
+
+.@{lc-prefix}-left-tree {
+  min-width: 200px;
+  width: 18.75vw;
+  background: #ffffff;
+  border-radius: 4px;
+
+  .@{lc-prefix}-left-tree-header {
+    padding: 0 @marginWidth;
+    height: 92px;
+    line-height: 92px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 17px;
+
+    label {
+      font-size: 24px;
+      font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+      color: #2F3236;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .anticon {
+      margin-left: auto;
+      font-size: 24px;
+    }
+  }
+
+  .ant-tree-treenode {
+    padding-right: @marginWidth;
+
+    .ant-tree-switcher {
+      width: @marginWidth;
+    }
+
+    .ant-tree-node-content-wrapper {
+      padding: 0 10px;
+      box-sizing: border-box;
+      font-size: 14px;
+      font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
+      font-weight: bold;
+
+      .@{lc-prefix}-left-tree-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 48px;
+        line-height: 48px;
+        // padding-right: 8px;
+
+        label {
+          width: 12.5vw;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .anticon {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .ant-tree-node-content-wrapper.ant-tree-node-selected {
+      color: #fff;
+    }
+  }
+}
+
+.@{lc-prefix}-menu-actions {
+  .ant-dropdown-menu-item {
+    min-width: 100px;
+  }
+}

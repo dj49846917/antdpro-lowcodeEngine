@@ -1,0 +1,16 @@
+export default {
+  'pages.app.publish.title': 'App Publishing',
+  'pages.app.publish.success': 'Publish Success',
+  'pages.app.publish.top.bar.publish': 'Publish App',
+  'pages.app.publish.top.bar.env': 'Sync Env',
+  'pages.app.publish.table.column.env': 'Select Env',
+  'pages.app.publish.table.column.name': 'Version Name',
+  'pages.app.publish.table.column.version': 'Version',
+  'pages.app.publish.table.column.path': 'Publish Path',
+  'pages.app.publish.table.column.createUser': 'Publisher',
+  'pages.app.publish.table.column.createDate': 'Publish Time',
+  'pages.app.publish.table.column.active': 'Is Active',
+  'pages.app.publish.table.column.active.yes': 'YES',
+  'pages.app.publish.table.column.active.no': 'NO',
+  'pages.app.publish.table.column.actions': 'Actions',
+}
